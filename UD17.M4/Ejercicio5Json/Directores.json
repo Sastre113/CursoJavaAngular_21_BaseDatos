@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8f1"
+  },
+  "PK_DNI": "79033066",
+  "NomApels": "Arquímedes de Siracusa",
+  "FK_DNIJefe": "79033066",
+  "FK_Despacho": 1
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8f2"
+  },
+  "PK_DNI": "10284470",
+  "NomApels": "Gordon Freeman",
+  "FK_DNIJefe": "83225367",
+  "FK_Despacho": 6
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8f3"
+  },
+  "PK_DNI": "83225367",
+  "NomApels": "G-Man",
+  "FK_DNIJefe": "83225367",
+  "FK_Despacho": 6
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8f4"
+  },
+  "PK_DNI": "38444048",
+  "NomApels": "Albert Einstein",
+  "FK_DNIJefe": "38444048",
+  "FK_Despacho": 5
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8f5"
+  },
+  "PK_DNI": "40219395",
+  "NomApels": "Isaac Newton",
+  "FK_DNIJefe": "38444048",
+  "FK_Despacho": 7
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8f6"
+  },
+  "PK_DNI": "63773951",
+  "NomApels": "Stephen Hawking",
+  "FK_DNIJefe": "38444048",
+  "FK_Despacho": 5
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8f7"
+  },
+  "PK_DNI": "79260594",
+  "NomApels": "Marie Curie",
+  "FK_DNIJefe": "79260594",
+  "FK_Despacho": 5
+}]

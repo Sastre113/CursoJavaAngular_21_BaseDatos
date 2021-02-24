@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa905"
+  },
+  "PK_Codigo": 1,
+  "NomApels": "Miguel Á. Sastre"
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa906"
+  },
+  "PK_Codigo": 2,
+  "NomApels": "Manuel Inventado"
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa907"
+  },
+  "PK_Codigo": 3,
+  "NomApels": "Juan El Fantasma"
+}]

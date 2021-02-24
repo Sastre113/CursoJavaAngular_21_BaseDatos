@@ -1,0 +1,95 @@
+use LosCientificos
+db.createCollection("Cientificos")
+db.createCollection("Proyecto")
+db.createCollection("Asignado_A")
+
+db.Cientificos.insert(
+	[{
+		PK_DNI: "10284470",
+		NomApels: "Gordon Freeman"
+	},
+	{
+		PK_DNI: "83225367",
+		NomApels: "G-Man"
+	},
+	{
+		PK_DNI: "38444048",
+		NomApels: "Albert Einstein"
+	},
+	{
+		PK_DNI: "40219395",
+		NomApels: "Isaac Newton"
+	},
+	{
+		PK_DNI: "79260594",
+		NomApels: "Marie Curie"
+	}]
+)
+
+db.Proyecto.insert(
+	[{
+		PK_id: "G98MS",
+		Nombre: "Manipulador de Campos de Energía Cero",
+		Horas: 50
+	},
+	{
+		PK_id: "GL235",
+		Nombre: "Quantum Destabilize",
+		Horas: 250
+	},
+	{
+		PK_id: "OSIPR",
+		Nombre: "Overwatch Standard Issue Pulse Rifle",
+		Horas: 30
+	},
+	{
+		PK_id: "TAU01",
+		Nombre: "XVL1456",
+		Horas: 353
+	},
+	{
+		PK_id: "BFG5T",
+		Nombre: "Fat-man",
+		Horas: 14
+	},
+	{
+		PK_id: "PoN84",
+		Nombre: "Polonio",
+		Horas: 365
+	}]
+)
+
+db.Asignado_A.insert(
+	[{
+		FK_PK_Cientifico:"10284470",
+		FK_PK_Proyecto:"G98MS"
+	},
+	{
+		FK_PK_Cientifico:"83225367",
+		FK_PK_Proyecto:"G98MS"
+	},
+	{
+		FK_PK_Cientifico:"10284470",
+		FK_PK_Proyecto:"TAU01"
+	},
+	{
+		FK_PK_Cientifico:"40219395",
+		FK_PK_Proyecto:"PoN84"
+	},
+	{
+		FK_PK_Cientifico:"10284470",
+		FK_PK_Proyecto:"GL235"
+	},
+	{
+		FK_PK_Cientifico:"79260594",
+		FK_PK_Proyecto:"PoN84"
+	},
+	{
+		FK_PK_Cientifico:"83225367",
+		FK_PK_Proyecto:"GL235"
+	},
+	{
+		FK_PK_Cientifico:"38444048",
+		FK_PK_Proyecto:"BFG5T"
+	}]
+)

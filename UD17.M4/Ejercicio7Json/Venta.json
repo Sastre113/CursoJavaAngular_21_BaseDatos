@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa910"
+  },
+  "FK_PK_Cajero": 1,
+  "FK_PK_Maquina": 1,
+  "FK_PK_Producto": 3
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa911"
+  },
+  "FK_PK_Cajero": 1,
+  "FK_PK_Maquina": 2,
+  "FK_PK_Producto": 4
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa912"
+  },
+  "FK_PK_Cajero": 2,
+  "FK_PK_Maquina": 1,
+  "FK_PK_Producto": 5
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa913"
+  },
+  "FK_PK_Cajero": 1,
+  "FK_PK_Maquina": 1,
+  "FK_PK_Producto": 2
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa914"
+  },
+  "FK_PK_Cajero": 3,
+  "FK_PK_Maquina": 2,
+  "FK_PK_Producto": 1
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa915"
+  },
+  "FK_PK_Cajero": 3,
+  "FK_PK_Maquina": 2,
+  "FK_PK_Producto": 3
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa916"
+  },
+  "FK_PK_Cajero": 1,
+  "FK_PK_Maquina": 1,
+  "FK_PK_Producto": 1
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa917"
+  },
+  "FK_PK_Cajero": 1,
+  "FK_PK_Maquina": 1,
+  "FK_PK_Producto": 2
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa918"
+  },
+  "FK_PK_Cajero": 1,
+  "FK_PK_Maquina": 1,
+  "FK_PK_Producto": 4
+}]

@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa8fd"
+  },
+  "PK_id": "PePe",
+  "Nombre": "FerreteríaPepe"
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa8fe"
+  },
+  "PK_id": "GaDa",
+  "Nombre": "Gandalf El Blanco"
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa8ff"
+  },
+  "PK_id": "S.Hw",
+  "Nombre": "SuperFerreteria"
+}]

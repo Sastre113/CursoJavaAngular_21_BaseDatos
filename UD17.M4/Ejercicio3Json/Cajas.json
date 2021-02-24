@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "60368ebc535c36f3917aa8d6"
+  },
+  "PK_NumReferencia": "GAWYB",
+  "Contenido": "Diacetilmorfina ",
+  "Valor": 10,
+  "FK_Almacen": 1
+},{
+  "_id": {
+    "$oid": "60368ebc535c36f3917aa8d7"
+  },
+  "PK_NumReferencia": "35YET",
+  "Contenido": "Desoxiefedrina",
+  "Valor": 50,
+  "FK_Almacen": 2
+},{
+  "_id": {
+    "$oid": "60368ebc535c36f3917aa8d8"
+  },
+  "PK_NumReferencia": "A56GH",
+  "Contenido": "3,4-Metilendioximetanfetamina",
+  "Valor": 100,
+  "FK_Almacen": 3
+},{
+  "_id": {
+    "$oid": "60368ebc535c36f3917aa8d9"
+  },
+  "PK_NumReferencia": "QM773",
+  "Contenido": "Desoxiefedrina",
+  "Valor": 50,
+  "FK_Almacen": 2
+},{
+  "_id": {
+    "$oid": "60368ebc535c36f3917aa8da"
+  },
+  "PK_NumReferencia": "XYK3S",
+  "Contenido": "3,4-Metilendioximetanfetamina",
+  "Valor": 25,
+  "FK_Almacen": 1
+},{
+  "_id": {
+    "$oid": "60368ebc535c36f3917aa8db"
+  },
+  "PK_NumReferencia": "V2P32",
+  "Contenido": "Desoxiefedrina",
+  "Valor": 150,
+  "FK_Almacen": 3
+},{
+  "_id": {
+    "$oid": "60368ebc535c36f3917aa8dc"
+  },
+  "PK_NumReferencia": "HXAMM",
+  "Contenido": "Desoxiefedrina",
+  "Valor": 500,
+  "FK_Almacen": 5
+}]

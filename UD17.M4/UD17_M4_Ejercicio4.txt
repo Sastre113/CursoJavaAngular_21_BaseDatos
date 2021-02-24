@@ -1,0 +1,73 @@
+use PeliculasYSalas
+db.createCollection("Peliculas")
+db.createCollection("Salas")
+db.Peliculas.insert(
+	[{
+		PK_Codigo: 1,
+		Nombre: "El señor de los anillos: La comunidad del anillo",
+		CalificacionEdad: 7
+	},
+	{
+		PK_Codigo: 2,
+		Nombre: "Die Hard",
+		CalificacionEdad: 13
+	},
+	{
+		PK_Codigo: 3,
+		Nombre: "El señor de los anillos: Las dos torres",
+		CalificacionEdad: 7
+	},
+	{
+		PK_Codigo: 4,
+		Nombre: "Mad Max",
+		CalificacionEdad: 18
+	},
+	{
+		PK_Codigo: 5,
+		Nombre: "Wall-e",
+		CalificacionEdad: 7
+	},
+	{
+		PK_Codigo: 6,
+		Nombre: "12 Angry Men",
+		CalificacionEdad: 13
+	}]
+)
+
+db.Salas.insert(
+	[{
+		PK_Codigo: 1,
+		Nombre: "Nerja",
+		FK_Pelicula: 4
+	},
+	{
+		PK_Codigo: 4,
+		Nombre: "Wasterlands",
+		FK_Pelicula: 4
+	},
+	{
+		PK_Codigo: 3,
+		Nombre: "Screw",
+		FK_Pelicula: 4
+	},
+	{
+		PK_Codigo: 6,
+		Nombre: "FROSTMOURE",
+		FK_Pelicula: 4
+	},
+	{
+		PK_Codigo: 1,
+		Nombre: "ANDURIL",
+		FK_Pelicula: 4
+	},
+	{
+		PK_Codigo: 2,
+		Nombre: "PELICAN",
+		FK_Pelicula: 4
+	},
+	{
+		PK_Codigo: 1,
+		Nombre: "MJOLNIR",
+		FK_Pelicula: 4
+	}]
+)

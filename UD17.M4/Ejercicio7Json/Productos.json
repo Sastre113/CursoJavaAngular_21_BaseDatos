@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa908"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "Lejía",
+  "Precio": 5
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa909"
+  },
+  "PK_Codigo": 2,
+  "Nombre": "Papel",
+  "Precio": 10
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa90a"
+  },
+  "PK_Codigo": 3,
+  "Nombre": "Chocolate",
+  "Precio": 2
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa90b"
+  },
+  "PK_Codigo": 4,
+  "Nombre": "Mantequilla",
+  "Precio": 1
+},{
+  "_id": {
+    "$oid": "60368f41535c36f3917aa90c"
+  },
+  "PK_Codigo": 5,
+  "Nombre": "Pan",
+  "Precio": 0.5
+}]

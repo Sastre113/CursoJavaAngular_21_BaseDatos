@@ -1,0 +1,98 @@
+use LosInvestigadores
+db.createCollection("Facultad")
+db.createCollection("Investigadores")
+db.createCollection("Equipos")
+db.createCollection("Reserva")
+db.Facultad.insert(
+	[{
+		PK_Codigo: 1,
+		Nombre: "Black Mesa"
+	},
+	{
+		PK_Codigo: 2,
+		Nombre: "Manhattan"
+	},
+	{
+		PK_Codigo: 3,
+		Nombre: "Perseus"
+	},]
+)
+db.Investigadores.insert(
+	[{
+		PK_DNI: "10284470",
+		NomApels: "Gordon Freeman",
+		FK_Despacho: 1
+	},
+	{
+		PK_DNI: "83225367",
+		NomApels: "G-Man",
+		FK_Despacho: 1
+	},
+	{
+		PK_DNI: "38444048",
+		NomApels: "Albert Einstein",
+		FK_Despacho: 2
+	},
+	{
+		PK_DNI: "40219395",
+		NomApels: "Isaac Newton",
+		FK_Despacho: 3
+	},
+	{
+		PK_DNI: "79260594",
+		NomApels: "Marie Curie",
+		FK_Despacho: 3
+	}]
+)
+db.Equipos.insert(
+	[{
+		PK_NumSerie: "G98MS",
+		Nombre: "Manipulador de Campos de Energía Cero",
+		FK_Facultad: 1
+	},
+	{
+		PK_NumSerie: "GL235",
+		Nombre: "Quantum Destabilize",
+		FK_Facultad: 1
+	},
+	{
+		PK_NumSerie: "OSIPR",
+		Nombre: "Overwatch Standard Issue Pulse Rifle",
+		FK_Facultad: 1
+	},
+	{
+		PK_NumSerie: "TAU01",
+		Nombre: "XVL1456",
+		FK_Facultad: 1
+	},
+	{
+		PK_NumSerie: "BFG5T",
+		Nombre: "Fat-man",
+		FK_Facultad: 2
+	},
+	{
+		PK_NumSerie: "PoN84",
+		Nombre: "Polonio",
+		FK_Facultad: 3
+	}]
+)
+db.Reserva.insert(
+	[{
+		FK_PK_DNI:"10284470",
+		FK_PK_NumSerie:"TAU01",
+		Comienzo: "18-2-1993",
+		Fin: "19-2-1993"
+	},
+	{
+		FK_PK_DNI:"38444048",
+		FK_PK_NumSerie:"BFG5T",
+		Comienzo: "15-6-1945",
+		Fin: "16-6-1945"
+	},
+	{
+		FK_PK_DNI:"79260594",
+		FK_PK_NumSerie:"PoN84",
+		Comienzo: "15-2-1993",
+		Fin: "20-3-1997"
+	}]
+)

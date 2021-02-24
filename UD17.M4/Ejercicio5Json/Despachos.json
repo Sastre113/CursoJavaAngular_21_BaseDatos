@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8ea"
+  },
+  "PK_Numero": 1,
+  "Capacidad": 5
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8eb"
+  },
+  "PK_Numero": 2,
+  "Capacidad": 10
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8ec"
+  },
+  "PK_Numero": 3,
+  "Capacidad": 15
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8ed"
+  },
+  "PK_Numero": 4,
+  "Capacidad": 5
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8ee"
+  },
+  "PK_Numero": 5,
+  "Capacidad": 2
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8ef"
+  },
+  "PK_Numero": 6,
+  "Capacidad": 2
+},{
+  "_id": {
+    "$oid": "60368f1b535c36f3917aa8f0"
+  },
+  "PK_Numero": 7,
+  "Capacidad": 4
+}]

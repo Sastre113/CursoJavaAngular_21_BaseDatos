@@ -1,0 +1,80 @@
+use LosAlmacenes
+db.createCollection("Almacenes")
+db.createCollection("Cajas")
+db.Almacenes.insert(
+	[{
+		PK_Codigo: 1,
+		Lugar: "Los Angeles",
+		Capacidad: 10
+	},
+	{
+		PK_Codigo: 2,
+		Lugar: "Los Santos",
+		Capacidad: 5
+	},
+	{
+		PK_Codigo: 3,
+		Lugar: "Liberty City",
+		Capacidad: 15
+	},
+	{
+		PK_Codigo: 4,
+		Lugar: "New York",
+		Capacidad: 20
+	},
+	{
+		PK_Codigo: 5,
+		Lugar: "Miami",
+		Capacidad: 10
+	},
+	{
+		PK_Codigo: 6,
+		Lugar: "Vicy City",
+		Capacidad: 10
+	}]
+)
+
+db.Cajas.insert(
+	[{
+		PK_NumReferencia: "GAWYB",
+		Contenido: "Diacetilmorfina ",
+		Valor: 10,
+		FK_Almacen: 1
+	},
+	{
+		PK_NumReferencia: "35YET",
+		Contenido: "Desoxiefedrina",
+		Valor: 50,
+		FK_Almacen: 2
+	},
+	{
+		PK_NumReferencia: "A56GH",
+		Contenido: "3,4-Metilendioximetanfetamina",
+		Valor: 100,
+		FK_Almacen: 3
+	},
+	{
+		PK_NumReferencia: "QM773",
+		Contenido: "Desoxiefedrina",
+		Valor: 50,
+		FK_Almacen: 2
+	},
+	{
+		PK_NumReferencia: "XYK3S",
+		Contenido: "3,4-Metilendioximetanfetamina",
+		Valor: 25,
+		FK_Almacen: 1
+	},
+	{
+		PK_NumReferencia: "V2P32",
+		Contenido: "Desoxiefedrina",
+		Valor: 150,
+		FK_Almacen: 3
+	},
+	{
+		PK_NumReferencia: "HXAMM",
+		Contenido: "Desoxiefedrina",
+		Valor: 500,
+		FK_Almacen: 5
+	}]
+)

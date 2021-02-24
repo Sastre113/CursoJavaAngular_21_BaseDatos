@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa921"
+  },
+  "PK_NumSerie": "G98MS",
+  "Nombre": "Manipulador de Campos de Energía Cero",
+  "FK_Facultad": 1
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa922"
+  },
+  "PK_NumSerie": "GL235",
+  "Nombre": "Quantum Destabilize",
+  "FK_Facultad": 1
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa923"
+  },
+  "PK_NumSerie": "OSIPR",
+  "Nombre": "Overwatch Standard Issue Pulse Rifle",
+  "FK_Facultad": 1
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa924"
+  },
+  "PK_NumSerie": "TAU01",
+  "Nombre": "XVL1456",
+  "FK_Facultad": 1
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa925"
+  },
+  "PK_NumSerie": "BFG5T",
+  "Nombre": "Fat-man",
+  "FK_Facultad": 2
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa926"
+  },
+  "PK_NumSerie": "PoN84",
+  "Nombre": "Polonio",
+  "FK_Facultad": 3
+}]

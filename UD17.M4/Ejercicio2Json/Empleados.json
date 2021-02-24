@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8cb"
+  },
+  "DNI": "79033066",
+  "Nombre": "Gordon",
+  "Apellido": "Freeman",
+  "FK_Departamento": 1
+},{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8cc"
+  },
+  "DNI": "10284470",
+  "Nombre": "G",
+  "Apellido": "Man",
+  "FK_Departamento": 1
+},{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8cd"
+  },
+  "DNI": "83225367",
+  "Nombre": "Albert",
+  "Apellido": "Einstein",
+  "FK_Departamento": 2
+},{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8ce"
+  },
+  "DNI": "38444048",
+  "Nombre": "Marie",
+  "Apellido": "Curie",
+  "FK_Departamento": 4
+},{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8cf"
+  },
+  "DNI": "40219395",
+  "Nombre": "Adrien",
+  "Apellido": "Shepard",
+  "FK_Departamento": 1
+}]

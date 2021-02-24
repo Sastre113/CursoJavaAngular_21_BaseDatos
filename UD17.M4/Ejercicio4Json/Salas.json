@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "60369402ef8fe81038cd364c"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "Nerja",
+  "FK_Pelicula": 4
+},{
+  "_id": {
+    "$oid": "60369402ef8fe81038cd364d"
+  },
+  "PK_Codigo": 4,
+  "Nombre": "Wasterlands",
+  "FK_Pelicula": 4
+},{
+  "_id": {
+    "$oid": "60369402ef8fe81038cd364e"
+  },
+  "PK_Codigo": 3,
+  "Nombre": "Screw",
+  "FK_Pelicula": 4
+},{
+  "_id": {
+    "$oid": "60369402ef8fe81038cd364f"
+  },
+  "PK_Codigo": 6,
+  "Nombre": "FROSTMOURE",
+  "FK_Pelicula": 4
+},{
+  "_id": {
+    "$oid": "60369402ef8fe81038cd3650"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "ANDURIL",
+  "FK_Pelicula": 4
+},{
+  "_id": {
+    "$oid": "60369402ef8fe81038cd3651"
+  },
+  "PK_Codigo": 2,
+  "Nombre": "PELICAN",
+  "FK_Pelicula": 4
+},{
+  "_id": {
+    "$oid": "60369402ef8fe81038cd3652"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "MJOLNIR",
+  "FK_Pelicula": 4
+}]

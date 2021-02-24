@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa91c"
+  },
+  "PK_DNI": "10284470",
+  "NomApels": "Gordon Freeman",
+  "FK_Despacho": 1
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa91d"
+  },
+  "PK_DNI": "83225367",
+  "NomApels": "G-Man",
+  "FK_Despacho": 1
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa91e"
+  },
+  "PK_DNI": "38444048",
+  "NomApels": "Albert Einstein",
+  "FK_Despacho": 2
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa91f"
+  },
+  "PK_DNI": "40219395",
+  "NomApels": "Isaac Newton",
+  "FK_Despacho": 3
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa920"
+  },
+  "PK_DNI": "79260594",
+  "NomApels": "Marie Curie",
+  "FK_Despacho": 3
+}]

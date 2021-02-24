@@ -1,0 +1,64 @@
+use LaTiendaInformatica
+db.createCollection("Fabricantes")
+db.createCollection("Articulos")
+db.Fabricantes.insert(
+	[{
+		PK_Codigo: 1,
+		Nombre: "NVIDIA"
+	},
+	{
+		PK_Codigo: 2,
+		Nombre: "AMD"
+	},
+	{
+		PK_Codigo: 3,
+		Nombre: "INTEL"
+	},
+	{
+		PK_Codigo: 4,
+		Nombre: "ASUS"
+	},
+	{
+		PK_Codigo: 5,
+		Nombre: "MSI"
+	}]
+)
+
+db.Articulos.insert(
+	[{
+		PK_Codigo: 1,
+		Nombre: "RTX 2070",
+		Precio: 600,
+		FK_Fabricante: 1
+	},
+	{
+		PK_Codigo: 1,
+		Nombre: "RX 480",
+		Precio: 200,
+		FK_Fabricante: 2
+	},
+	{
+		PK_Codigo: 1,
+		Nombre: "i5 3470k",
+		Precio: 180,
+		FK_Fabricante: 3
+	},
+	{
+		PK_Codigo: 1,
+		Nombre: "RTX 2060",
+		Precio: 350,
+		FK_Fabricante: 1
+	},
+	{
+		PK_Codigo: 1,
+		Nombre: "RX 5700",
+		Precio: 375,
+		FK_Fabricante: 2
+	},
+	{
+		PK_Codigo: 1,
+		Nombre: "RX 5600",
+		Precio: 300,
+		FK_Fabricante: 2
+	}]
+)

@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8c6"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "Black Mesa",
+  "Presupuesto": 76000
+},{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8c7"
+  },
+  "PK_Codigo": 2,
+  "Nombre": "Aperture Science",
+  "Presupuesto": 150000
+},{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8c8"
+  },
+  "PK_Codigo": 3,
+  "Nombre": "Nostromos",
+  "Presupuesto": 50000
+},{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8c9"
+  },
+  "PK_Codigo": 4,
+  "Nombre": "MJOLNIR",
+  "Presupuesto": 250000
+},{
+  "_id": {
+    "$oid": "60368ea1535c36f3917aa8ca"
+  },
+  "PK_Codigo": 5,
+  "Nombre": "ANDURIL",
+  "Presupuesto": 12000
+}]

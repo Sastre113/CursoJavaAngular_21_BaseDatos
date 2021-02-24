@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa900"
+  },
+  "FK_PK_CodigoPieza": 1,
+  "FK_PK_idProveedor": "PePe",
+  "Precio": 20
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa901"
+  },
+  "FK_PK_CodigoPieza": 2,
+  "FK_PK_idProveedor": "GaDa",
+  "Precio": 100
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa902"
+  },
+  "FK_PK_CodigoPieza": 3,
+  "FK_PK_idProveedor": "Hw",
+  "Precio": 5
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa903"
+  },
+  "FK_PK_CodigoPieza": 4,
+  "FK_PK_idProveedor": "Hw",
+  "Precio": 2
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa904"
+  },
+  "FK_PK_CodigoPieza": 5,
+  "FK_PK_idProveedor": "Hw",
+  "Precio": 5
+}]

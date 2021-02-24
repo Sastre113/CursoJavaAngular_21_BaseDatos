@@ -1,0 +1,69 @@
+use PiezasYProveedores
+db.createCollection("Piezas")
+db.createCollection("Proveedores")
+db.createCollection("Suministra")
+db.Piezas.insert(
+	[{
+		PK_Codigo: 1,
+		Nombre: "Tuerca"
+	},
+	{
+		PK_Codigo: 2,
+		Nombre: "Tornillo"
+	},
+	{
+		PK_Codigo: 3,
+		Nombre: "Punta"
+	},
+	{
+		PK_Codigo: 4,
+		Nombre: "Arandela"
+	},
+	{
+		PK_Codigo: 5,
+		Nombre: "Valvula"
+	}]
+)
+
+db.Proveedores.insert(
+	[{
+		PK_id: "PePe",
+		Nombre: "FerreteríaPepe"
+	},
+	{
+		PK_id: "GaDa",
+		Nombre: "Gandalf El Blanco"
+	},
+	{
+		PK_id: "S.Hw",
+		Nombre: "SuperFerreteria"
+	}]
+)
+
+db.Suministra.insert(
+	[{
+		FK_PK_CodigoPieza: 1,
+		FK_PK_idProveedor: "PePe",
+		Precio: 20
+	},
+	{
+		FK_PK_CodigoPieza: 2,
+		FK_PK_idProveedor: "GaDa",
+		Precio: 100
+	},
+	{
+		FK_PK_CodigoPieza: 3,
+		FK_PK_idProveedor: "Hw",
+		Precio: 5
+	},
+	{
+		FK_PK_CodigoPieza: 4,
+		FK_PK_idProveedor: "Hw",
+		Precio: 2
+	},
+	{
+		FK_PK_CodigoPieza: 5,
+		FK_PK_idProveedor: "Hw",
+		Precio: 5
+	}]
+)

@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa8f8"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "Tuerca"
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa8f9"
+  },
+  "PK_Codigo": 2,
+  "Nombre": "Tornillo"
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa8fa"
+  },
+  "PK_Codigo": 3,
+  "Nombre": "Punta"
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa8fb"
+  },
+  "PK_Codigo": 4,
+  "Nombre": "Arandela"
+},{
+  "_id": {
+    "$oid": "60368f31535c36f3917aa8fc"
+  },
+  "PK_Codigo": 5,
+  "Nombre": "Valvula"
+}]

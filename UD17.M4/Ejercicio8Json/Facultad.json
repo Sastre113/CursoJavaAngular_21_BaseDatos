@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa919"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "Black Mesa"
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa91a"
+  },
+  "PK_Codigo": 2,
+  "Nombre": "Manhattan"
+},{
+  "_id": {
+    "$oid": "60368f51535c36f3917aa91b"
+  },
+  "PK_Codigo": 3,
+  "Nombre": "Perseus"
+}]

@@ -1,0 +1,78 @@
+use LosDirectores
+db.createCollection("Despachos")
+db.createCollection("Directores")
+db.Despachos.insert(
+	[{
+		PK_Numero: 1,
+		Capacidad: 5
+	},
+	{
+		PK_Numero: 2,
+		Capacidad: 10
+	},
+	{
+		PK_Numero: 3,
+		Capacidad: 15
+	},
+	{
+		PK_Numero: 4,
+		Capacidad: 5
+	},
+	{
+		PK_Numero: 5,
+		Capacidad: 2
+	},
+	{
+		PK_Numero: 6,
+		Capacidad: 2
+	},
+	{
+		PK_Numero: 7,
+		Capacidad: 4
+	}]
+)
+
+db.Directores.insert(
+	[{
+		PK_DNI: "79033066",
+		NomApels: "Arquímedes de Siracusa",
+		FK_DNIJefe: "79033066",
+		FK_Despacho: 1
+	},
+	{
+		PK_DNI: "10284470",
+		NomApels: "Gordon Freeman",
+		FK_DNIJefe: "83225367",
+		FK_Despacho: 6
+	},
+	{
+		PK_DNI: "83225367",
+		NomApels: "G-Man",
+		FK_DNIJefe: "83225367",
+		FK_Despacho: 6
+	},
+	{
+		PK_DNI: "38444048",
+		NomApels: "Albert Einstein",
+		FK_DNIJefe: "38444048",
+		FK_Despacho: 5
+	},
+	{
+		PK_DNI: "40219395",
+		NomApels: "Isaac Newton",
+		FK_DNIJefe: "38444048",
+		FK_Despacho: 7
+	},
+	{
+		PK_DNI: "63773951",
+		NomApels: "Stephen Hawking",
+		FK_DNIJefe: "38444048",
+		FK_Despacho: 5
+	},
+	{
+		PK_DNI: "79260594",
+		NomApels: "Marie Curie",
+		FK_DNIJefe: "79260594",
+		FK_Despacho: 5
+	},]
+)

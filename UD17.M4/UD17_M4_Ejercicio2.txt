@@ -1,0 +1,64 @@
+use LosEmpleados
+db.createCollection("Empleados")
+db.createCollection("Departamentos")
+db.Departamentos.insert(
+	[{
+		PK_Codigo: 1,
+		Nombre: "Black Mesa",
+		Presupuesto: 76000
+	},
+	{
+		PK_Codigo: 2,
+		Nombre: "Aperture Science",
+		Presupuesto: 150000
+	},
+	{
+		PK_Codigo: 3,
+		Nombre: "Nostromos",
+		Presupuesto: 50000
+	},
+	{
+		PK_Codigo: 4,
+		Nombre: "MJOLNIR",
+		Presupuesto: 250000
+	},
+	{
+		PK_Codigo: 5,
+		Nombre: "ANDURIL",
+		Presupuesto: 12000
+	}]
+)
+
+db.Empleados.insert(
+	[{
+		DNI: "79033066",
+		Nombre: "Gordon",
+		Apellido: "Freeman",
+		FK_Departamento: 1
+	},
+	{
+		DNI: "10284470",
+		Nombre: "G",
+		Apellido: "Man",
+		FK_Departamento: 1
+	},
+	{
+		DNI: "83225367",
+		Nombre: "Albert",
+		Apellido: "Einstein",
+		FK_Departamento: 2
+	},
+	{
+		DNI: "38444048",
+		Nombre: "Marie",
+		Apellido: "Curie",
+		FK_Departamento: 4
+	},
+	{
+		DNI: "40219395",
+		Nombre: "Adrien",
+		Apellido: "Shepard",
+		FK_Departamento: 1
+	},
+	]
+)

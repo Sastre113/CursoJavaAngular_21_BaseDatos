@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8c0"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "RTX 2070",
+  "Precio": 600,
+  "FK_Fabricante": 1
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8c1"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "RX 480",
+  "Precio": 200,
+  "FK_Fabricante": 2
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8c2"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "i5 3470k",
+  "Precio": 180,
+  "FK_Fabricante": 3
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8c3"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "RTX 2060",
+  "Precio": 350,
+  "FK_Fabricante": 1
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8c4"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "RX 5700",
+  "Precio": 375,
+  "FK_Fabricante": 2
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8c5"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "RX 5600",
+  "Precio": 300,
+  "FK_Fabricante": 2
+}]

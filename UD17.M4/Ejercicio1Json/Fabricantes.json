@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8bb"
+  },
+  "PK_Codigo": 1,
+  "Nombre": "NVIDIA"
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8bc"
+  },
+  "PK_Codigo": 2,
+  "Nombre": "AMD"
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8bd"
+  },
+  "PK_Codigo": 3,
+  "Nombre": "INTEL"
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8be"
+  },
+  "PK_Codigo": 4,
+  "Nombre": "ASUS"
+},{
+  "_id": {
+    "$oid": "60368e72535c36f3917aa8bf"
+  },
+  "PK_Codigo": 5,
+  "Nombre": "MSI"
+}]

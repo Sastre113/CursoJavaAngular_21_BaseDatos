@@ -1,0 +1,108 @@
+use LosGrandesAlmacenes
+db.createCollection("Cajeros")
+db.createCollection("Productos")
+db.createCollection("Maquinas_Registradoras")
+db.createCollection("Venta")
+
+db.Cajeros.insert(
+	[{
+		PK_Codigo: 1,
+		NomApels: "Miguel Á. Sastre"
+	},
+	{
+		PK_Codigo: 2,
+		NomApels: "Manuel Inventado"
+	},
+	{
+		PK_Codigo: 3,
+		NomApels: "Juan El Fantasma"
+	}]
+)
+db.Productos.insert(
+	[{
+		PK_Codigo: 1,
+		Nombre: "Lejía",
+		Precio: 5
+	},
+	{
+		PK_Codigo: 2,
+		Nombre: "Papel",
+		Precio: 10
+	},
+	{
+		PK_Codigo: 3,
+		Nombre: "Chocolate",
+		Precio: 2
+	},
+	{
+		PK_Codigo: 4,
+		Nombre: "Mantequilla",
+		Precio: 1
+	},
+	{
+		PK_Codigo: 5,
+		Nombre: "Pan",
+		Precio: 0.5
+	}]
+)
+db.Maquinas_Registradoras.insert(
+	[{
+		PK_Codigo: 1,
+		Piso: 1
+	},
+	{
+		PK_Codigo: 2,
+		Piso: 2
+	},
+	{
+		PK_Codigo: 3,
+		Piso: 2
+	}]
+)
+db.Venta.insert(
+	[{
+		FK_PK_Cajero:1,
+		FK_PK_Maquina:1,
+		FK_PK_Producto:3
+	},
+	{
+		FK_PK_Cajero:1,
+		FK_PK_Maquina:2,
+		FK_PK_Producto:4
+	},
+	{
+		FK_PK_Cajero:2,
+		FK_PK_Maquina:1,
+		FK_PK_Producto:5
+	},
+	{
+		FK_PK_Cajero:1,
+		FK_PK_Maquina:1,
+		FK_PK_Producto:2
+	},
+	{
+		FK_PK_Cajero:3,
+		FK_PK_Maquina:2,
+		FK_PK_Producto:1
+	},
+	{
+		FK_PK_Cajero:3,
+		FK_PK_Maquina:2,
+		FK_PK_Producto:3
+	},
+	{
+		FK_PK_Cajero:1,
+		FK_PK_Maquina:1,
+		FK_PK_Producto:1
+	},
+	{
+		FK_PK_Cajero:1,
+		FK_PK_Maquina:1,
+		FK_PK_Producto:2
+	},
+	{
+		FK_PK_Cajero:1,
+		FK_PK_Maquina:1,
+		FK_PK_Producto:4
+	}]
+)
