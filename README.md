@@ -5,7 +5,7 @@
 #### 1. Descripcion
 ```
 
-Este repositorio esta pensando como base para los ejercicios relacionados con bases de datos.
+Este repositorio es 5para los ejercicios relacionados con bases de datos.
   - De la UD12 al UD16 se trata de BD SQL
   - UD17 son relacionados con No-SQL
 
